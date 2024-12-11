@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="sia",
-    version="1.0.0",
+    name="timeleap-sia",
+    version="1.0.1",
     packages=find_packages(),
     install_requires=[],
     author="Pouya Eghbali",
@@ -13,7 +13,7 @@ setup(
     url="https://github.com/TimeleapLabs/py-sia",
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
