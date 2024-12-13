@@ -9,7 +9,7 @@ Sia is the serialization library used by [Unchained](https://github.com/Timeleap
 ## Installation
 
 ```bash
-pip install sia
+pip install timeleap-sia
 ```
 
 ## Usage
@@ -20,7 +20,8 @@ from sia import Sia
 sia = Sia()
 sia.add_string8("Hello")
 sia.add_uint8(25)
-sia.add_ascii("World")
+sia.add_string32("World")
 
 print(sia.content)
+# bytearray(b'\x05Hello\x19\x05\x00\x00\x00World')
 ```
