@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="timeleap-sia",
-    version="1.0.1",
+    version="1.1.0",
     packages=find_packages(),
     install_requires=[],
     author="Pouya Eghbali",
