@@ -9,7 +9,7 @@ Sia is the serialization library used by [Timeleap](https://github.com/TimeleapL
 ## Installation
 
 ```bash
-pip install sia
+pip install timeleap-sia
 ```
 
 ## Usage
