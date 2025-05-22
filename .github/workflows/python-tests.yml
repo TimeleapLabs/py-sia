@@ -1,4 +1,4 @@
-name: Run Python Tests
+name: Py-Sia Tests
 
 on:
   push:
