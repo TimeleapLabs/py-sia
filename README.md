@@ -1,5 +1,7 @@
 # Sia
 
+![Build Status](https://github.com/TimeleapLabs/py-sia/actions/workflows/python-tests.yml/badge.svg?branch=master)
+
 Sia serialization for Python
 
 ## What is Sia?
